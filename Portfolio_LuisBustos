@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- CONFIGURACIÓN BÁSICA -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Luis Francisco Bustos Blasco | Portfolio ASIR</title>
+    <meta name="description" content="Portfolio personal de Luis Francisco Bustos Blasco, estudiante de Grado Superior ASIR.">
+    <meta name="author" content="Luis Francisco Bustos Blasco">
+    <meta name="keywords" content="ASIR, sistemas, redes, informática, portfolio">
+
+    <!-- COLOR DEL NAVEGADOR -->
+    <meta name="theme-color" content="#1f2933">
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Luis Francisco Bustos Blasco</h1>
+    <p>Estudiante de Grado Superior ASIR</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#competencias">Competencias</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante de Grado Superior en Administración de Sistemas Informáticos
+            y Redes (ASIR). Me interesa especialmente el ámbito de los sistemas,
+            las redes y la seguridad informática.
+        </p>
+        <p>
+            Actualmente me encuentro en proceso de formación, adquiriendo conocimientos
+            en administración de sistemas, redes y servicios.
+        </p>
+    </section>
+
+    <section id="competencias">
+        <h2>Competencias técnicas</h2>
+        <ul>
+            <li>Administración básica de sistemas Linux</li>
+            <li>Configuración de redes y direccionamiento IP</li>
+            <li>Servicios de red (DNS, DHCP, HTTP)</li>
+            <li>Virtualización con máquinas virtuales</li>
+            <li>Conocimientos de HTML5 y CSS</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos académicos</h2>
+
+        <article>
+            <h3>Servidor Web Apache en Linux</h3>
+            <p>
+                Instalación y configuración de un servidor web Apache en un entorno Linux,
+                incluyendo estructura de directorios y acceso básico.
+            </p>
+        </article>
+
+        <article>
+            <h3>Configuración de red local</h3>
+            <p>
+                Diseño y configuración de una red local con direccionamiento IP
+                y pruebas de conectividad.
+            </p>
+        </article>
+
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>
+            Email: <a href="mailto:luis.bustos@email.com">luis.bustos@email.com</a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Luis Francisco Bustos Blasco</p>
+</footer>
+
+</body>
+</html>
